@@ -1,0 +1,167 @@
+/*-----Hero Section -----*/
+
+.hero-home {
+  background: url(/assets/media/banner-1.jpg) center center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-home {
+  h1 {
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: $font-900;
+    text-transform: uppercase;
+    color: $text-dark;
+  }
+  p {
+    font-size: 1.3rem;
+    padding: 1.5rem 0;
+    color: $text-dark;
+    margin: 0.5rem 0;
+    font-weight: $font-500;
+  }
+}
+
+/*----Services-home section ----*/
+
+.services-home {
+  text-align: center;
+  h3 {
+    color: $text-dark;
+  }
+}
+.services-home {
+  p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+  }
+}
+
+.services-home {
+  .container {
+    margin-top: 4rem;
+  }
+}
+.col-1-3 {
+  border: 1px solid rgb(197, 193, 193);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 3rem;
+}
+figure {
+  max-width: 5rem;
+  max-height: 5rem;
+}
+.article-heading {
+  font-size: 1.4rem;
+  font-weight: $font-500;
+  text-transform: capitalize;
+  padding: 1.2rem 0;
+  margin-top: 1rem;
+}
+
+/*<---GET Solutions CTA-->*/
+
+.solutions-cta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5rem 0;
+  background-color: rgb(248, 249, 250);
+  word-spacing: 3px;
+  p {
+    padding: 2rem 0;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.7;
+  }
+}
+
+/*---- Advert Home section ---*/
+
+.advert-home {
+  figure {
+    max-width: 4rem;
+    max-height: 4rem;
+  }
+}
+
+.col-1-2 {
+  padding: 1.5rem 2.5rem;
+  padding-left: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  h3 {
+    padding: 1.3rem 0;
+    line-height: 1.25;
+  }
+}
+.col-1-2 {
+  p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+}
+
+/*-------GET QUOTE CTA-----*/
+
+.quote-cta {
+  background-color: $primary;
+  color: #fff;
+  padding: 2.5rem 0;
+  h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+.quote-cta {
+  .btn-primary {
+    border: 1px solid #fff;
+  }
+  .btn-primary:hover {
+    background-color: #fff;
+    color: $primary;
+  }
+}
+
+/*----Advertisement-2 section ----*/
+
+.advert-2 {
+  background: url(/assets/media/img-woman-1.jpg) 85% 70% / contain no-repeat;
+  height: 60vh;
+}
+
+.advert-article {
+  p {
+    padding: 1.5rem 0;
+  }
+}
+
+/*----Client section ---*/
+
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 249, 250);
+}
+.client-col{
+    padding: 3rem 0;
+}
+.client-col-img {
+  max-width: 13rem;
+  padding: 1rem 2rem;
+  filter: grayscale(200%);
+}
